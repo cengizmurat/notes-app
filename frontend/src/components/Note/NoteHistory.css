@@ -1,0 +1,54 @@
+.history-modal {
+    /* Override styles from Ant Design */
+    .ant-modal-header {
+        border-bottom: 1px solid lightgray !important;
+        margin-bottom: 1.5em !important;
+    }
+    .ant-modal-body {
+        max-height: 70vh !important;
+        overflow-y: auto !important;
+    }
+    .ant-timeline {
+        padding-top: 0.5em !important;
+    }
+    .ant-timeline-item-head, .ant-timeline-item-tail {
+        inset-inline-start: 25% !important;
+    }
+    .ant-timeline-item-label {
+        width: calc(25% - 1.5em) !important;
+    }
+    .ant-timeline-item-content {
+        background-color: rgba(0, 0, 0, 0.05) !important;
+        border-radius: 4px !important;
+        padding: 1em !important;
+        width: calc(75% - 2em) !important;
+        justify-self: end !important;
+    }
+    .ant-timeline-item-content > :first-child {
+        border-bottom: 1px solid lightgray !important;
+    }
+    .ant-timeline-item-last {
+        padding-bottom: 0 !important;
+    }
+}
+
+.timeline-dot {
+    background-color: lightblue;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.version-title-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.version-title-label {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.version-title-content {
+    margin: 0;
+    text-align: justify;
+}

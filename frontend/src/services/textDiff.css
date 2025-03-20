@@ -1,0 +1,14 @@
+.text-diff {
+    white-space: pre;
+    text-wrap: auto;
+}
+
+.text-diff-added {
+    color: green;
+    background-color: lightgreen;
+}
+
+.text-diff-removed {
+    color: red;
+    text-decoration: line-through;
+}
